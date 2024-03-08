@@ -2,12 +2,15 @@
   "name": "social-proof-section-master",
   "version": "1.0.0",
   "description": "![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)",
-  "source":"index.html",
+  "source": "index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
 }

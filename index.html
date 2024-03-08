@@ -3,8 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
@@ -17,16 +15,91 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
   <body>
-    10,000+ of our users love our products. We only provide great products
-    combined with excellent customer service. See what our satisfied customers
-    are saying about our services. Rated 5 Stars in Reviews Rated 5 Stars in
-    Report Guru Rated 5 Stars in BestTech Colton Smith Verified Buyer "We needed
-    the same printed design as the one we had ordered a week prior. Not only did
-    they find the original order, but we also received it in time. Excellent!"
-    Irene Roberts Verified Buyer "Customer service is always excellent and very
-    quick turn around. Completely delighted with the simplicity of the purchase
-    and the speed of delivery." Anne Wallace Verified Buyer "Put an order with
-    this company and can only praise them for the very high standard. Will
-    definitely use them again and recommend them to everyone!"
+    <main class="main-content">
+      <section class="info">
+        <h1 class="main-heading">10,000+ of our users love our products.</h1>
+        <p class="text text--grey">
+          We only provide great products combined with excellent customer
+          service. See what our satisfied customers are saying about our
+          services.
+        </p>
+      </section>
+      <section class="reviews">
+        <div class="reviews__container">
+          <img src="./images/icon-star.svg" alt="stars" />
+          <h3 class="sec-heading">Rated 5 Stars in Reviews</h3>
+        </div>
+        <div class="reviews__container">
+          <img src="./images/icon-star.svg" alt="stars" />
+          <h3 class="sec-heading">Rated 5 Stars in Report Guru</h3>
+        </div>
+        <div class="reviews__container">
+          <img src="./images/icon-star.svg" alt="stars" />
+          <h3 class="sec-heading">Rated 5 Stars in BestTech</h3>
+        </div>
+      </section>
+      <section class="articles">
+        <article class="card card--1">
+          <div class="card__header">
+            <img
+              src="./images/image-colton.jpg"
+              alt="user colton"
+              class="card__img"
+            />
+            <div class="card__info">
+              <h3 class="sec-heading sec-heading--white">Colton Smith</h3>
+              <h3 class="sec-heading sec-heading--orange">Verified Buyer</h3>
+            </div>
+          </div>
+          <div class="card__body">
+            <p class="text text--white">
+              "We needed the same printed design as the one we had ordered a
+              week prior. Not only did they find the original order, but we also
+              received it in time. Excellent!"
+            </p>
+          </div>
+        </article>
+        <article class="card card--2">
+          <div class="card__header">
+            <img
+              src="./images/image-colton.jpg"
+              alt="user colton"
+              class="card__img"
+            />
+            <div class="card__info">
+              <h3 class="sec-heading sec-heading--white">Irene Roberts</h3>
+              <h3 class="sec-heading sec-heading--orange">Verified Buyer</h3>
+            </div>
+          </div>
+          <div class="card__body">
+            <p class="text text--white">
+              "Customer service is always excellent and very quick turn around.
+              Completely delighted with the simplicity of the purchase and the
+              speed of delivery."
+            </p>
+          </div>
+        </article>
+        <article class="card card--3">
+          <div class="card__header">
+            <img
+              src="./images/image-colton.jpg"
+              alt="user colton"
+              class="card__img"
+            />
+            <div class="card__info">
+              <h3 class="sec-heading sec-heading--white">Anne Wallace</h3>
+              <h3 class="sec-heading sec-heading--orange">Verified Buyer</h3>
+            </div>
+          </div>
+          <div class="card__body">
+            <p class="text text--white">
+              "Put an order with this company and can only praise them for the
+              very high standard. Will definitely use them again and recommend
+              them to everyone!"
+            </p>
+          </div>
+        </article>
+      </section>
+    </main>
   </body>
 </html>
