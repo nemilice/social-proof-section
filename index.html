@@ -11,33 +11,61 @@
     />
     <link rel="stylesheet" href="./src/style.css" />
     <title>Frontend Mentor | Social proof section</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
   <body>
     <main class="main-content">
-      <section class="info">
-        <h1 class="main-heading">10,000+ of our users love our products.</h1>
-        <p class="text text--grey">
-          We only provide great products combined with excellent customer
-          service. See what our satisfied customers are saying about our
-          services.
-        </p>
-      </section>
-      <section class="reviews">
-        <div class="reviews__container">
-          <img src="./images/icon-star.svg" alt="stars" />
-          <h3 class="sec-heading">Rated 5 Stars in Reviews</h3>
-        </div>
-        <div class="reviews__container">
-          <img src="./images/icon-star.svg" alt="stars" />
-          <h3 class="sec-heading">Rated 5 Stars in Report Guru</h3>
-        </div>
-        <div class="reviews__container">
-          <img src="./images/icon-star.svg" alt="stars" />
-          <h3 class="sec-heading">Rated 5 Stars in BestTech</h3>
-        </div>
-      </section>
+      <div class="main-content__container">
+        <section class="info">
+          <div class="info__container">
+            <h1 class="main-heading">
+              10,000+ of our users love our products.
+            </h1>
+            <p class="text text--grey">
+              We only provide great products combined with excellent customer
+              service. See what our satisfied customers are saying about our
+              services.
+            </p>
+          </div>
+        </section>
+        <section class="reviews">
+          <div class="reviews__container">
+            <div class="star__container">
+              <img src="./images/icon-star.svg" alt="stars" />
+              <img src="./images/icon-star.svg" alt="stars" />
+              <img src="./images/icon-star.svg" alt="stars" />
+              <img src="./images/icon-star.svg" alt="stars" />
+              <img src="./images/icon-star.svg" alt="stars" />
+            </div>
+            <h3 class="sec-heading sec-heading-purple">
+              Rated 5 Stars in Reviews
+            </h3>
+          </div>
+          <div class="reviews__container">
+            <div class="star__container">
+              <img src="./images/icon-star.svg" alt="stars" />
+              <img src="./images/icon-star.svg" alt="stars" />
+              <img src="./images/icon-star.svg" alt="stars" />
+              <img src="./images/icon-star.svg" alt="stars" />
+              <img src="./images/icon-star.svg" alt="stars" />
+            </div>
+            <h3 class="sec-heading sec-heading-purple">
+              Rated 5 Stars in Report Guru
+            </h3>
+          </div>
+          <div class="reviews__container">
+            <div class="star__container">
+              <img src="./images/icon-star.svg" alt="stars" />
+              <img src="./images/icon-star.svg" alt="stars" />
+              <img src="./images/icon-star.svg" alt="stars" />
+              <img src="./images/icon-star.svg" alt="stars" />
+              <img src="./images/icon-star.svg" alt="stars" />
+            </div>
+            <h3 class="sec-heading sec-heading-purple">
+              Rated 5 Stars in BestTech
+            </h3>
+          </div>
+        </section>
+      </div>
       <section class="articles">
         <article class="card card--1">
           <div class="card__header">
@@ -52,7 +80,7 @@
             </div>
           </div>
           <div class="card__body">
-            <p class="text text--white">
+            <p class="text">
               "We needed the same printed design as the one we had ordered a
               week prior. Not only did they find the original order, but we also
               received it in time. Excellent!"
@@ -62,8 +90,8 @@
         <article class="card card--2">
           <div class="card__header">
             <img
-              src="./images/image-colton.jpg"
-              alt="user colton"
+              src="./images/image-irene.jpg"
+              alt="user irene"
               class="card__img"
             />
             <div class="card__info">
@@ -72,7 +100,7 @@
             </div>
           </div>
           <div class="card__body">
-            <p class="text text--white">
+            <p class="text">
               "Customer service is always excellent and very quick turn around.
               Completely delighted with the simplicity of the purchase and the
               speed of delivery."
@@ -82,8 +110,8 @@
         <article class="card card--3">
           <div class="card__header">
             <img
-              src="./images/image-colton.jpg"
-              alt="user colton"
+              src="./images/image-anne.jpg"
+              alt="user anne"
               class="card__img"
             />
             <div class="card__info">
@@ -92,7 +120,7 @@
             </div>
           </div>
           <div class="card__body">
-            <p class="text text--white">
+            <p class="text">
               "Put an order with this company and can only praise them for the
               very high standard. Will definitely use them again and recommend
               them to everyone!"
